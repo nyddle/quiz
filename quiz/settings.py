@@ -26,6 +26,13 @@ TEMPLATE_DEBUG = True
 
 ALLOWED_HOSTS = []
 
+TEMPLATE_DEBUG = True
+TEMPLATE_DIRS = (
+    os.path.join(BASE_DIR, 'core', 'templates'),
+    os.path.join(BASE_DIR, 'editor', 'templates'),
+    os.path.join(BASE_DIR, 'game', 'templates'),
+)
+
 
 # Application definition
 
@@ -80,3 +87,5 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.6/howto/static-files/
 
 STATIC_URL = '/static/'
+
+
