@@ -33,6 +33,20 @@ TEMPLATE_DIRS = (
     os.path.join(BASE_DIR, 'game', 'templates'),
 )
 
+TEMPLATE_CONTEXT_PROCESSORS = (
+    'django.contrib.auth.context_processors.auth',
+    'social.apps.django_app.context_processors.backends',
+    'social.apps.django_app.context_processors.login_redirect',
+)
+
+# Authentication
+AUTHENTICATION_BACKENDS = (
+    'social.backends.vk.VKOAuth2',
+    'social.backends.facebook.FacebookOAuth2',
+    'social.backends.google.GoogleOAuth2',
+    'django.contrib.auth.backends.ModelBackend'
+
+)
 
 # Application definition
 
@@ -43,6 +57,8 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'social.apps.django_app.default',
+
 )
 
 MIDDLEWARE_CLASSES = (
