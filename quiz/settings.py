@@ -104,4 +104,14 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+# social auth
+SOCIAL_AUTH_VK_OAUTH2_KEY = 'sdvdsv'
+SOCIAL_AUTH_VK_OAUTH2_SECRET = 'sdvsdv'
+
+# facebook 384813221694011 eae7bc74c1818befec15fe089c7ea6c3
+
+# social auth
+
+SOCIAL_AUTH_FACEBOOK_KEY = '384813221694011'
+SOCIAL_AUTH_FACEBOOK_SECRET = 'eae7bc74c1818befec15fe089c7ea6c3'
 
