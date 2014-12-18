@@ -19,8 +19,9 @@
   <body>
 
         <h1>Python Social Auth</h1>
-
-    <div class="buttons">
+       {% if user and not user.is_anonymous %}
+        <h2>not anonymous</h2>
+        {% endif %}
       {% if user.is_authenticated %}
         <div class="user-details">
           You are logged in as <code>{{ user.username }}</code>!

@@ -4,5 +4,5 @@ from django.views.generic import View
 class AddQuestionView(View):
 
     def get(self, request):
-        return render_to_response('editor/new.html')
+        return render(request, 'editor/new.html')
 
