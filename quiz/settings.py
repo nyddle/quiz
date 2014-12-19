@@ -58,7 +58,10 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'social.apps.django_app.default',
-
+    'core',
+    'quiz',
+    'editor',
+    'game',
 )
 
 MIDDLEWARE_CLASSES = (
