@@ -1,0 +1,13 @@
+{% extends "editor/base.html" %}
+
+{% block content %}
+    <h2>Questions</h2> ( <a href="{% url 'new_question' %}">new question</a>  )
+    <br><br>
+    <ul>
+        {% for question in object_list %}
+            <li>
+             {{ question.question }}  &#8593;
+             {{ question.question }} - <a href="/question/{{ question.id }}/{{ question.slug }}">more...</a>
+        {% endfor %}
+    </ul>
+{% endblock %}
