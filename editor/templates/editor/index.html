@@ -1,16 +1,16 @@
 {% extends "editor/base.html" %}
 
 {% block content %}
-    <h2>Questions</h2> ( <a href="{% url 'new_question' %}">new question</a>  )
+    <h2>Questions</h2> ( <a href="{% url 'editor:new_question' %}">new question</a>  )
     <br><br>
     <ul>
         {% for question in object_list %}
             <li>
              {{ question.question }}  &#8593;
              {{ question.question }} - <a href="/question/{{ question.id }}/{{ question.slug }}">more...</a>
-              <a href="{% url 'view_question' question.id %}">[...]</a>
-              <a href="{% url 'edit_question' question.id %}">[edit]</a>
-              <a href="{% url 'delete_question' question.id %}">[X]</a>
+              <a href="{% url 'editor:view_question' question.id %}">[...]</a>
+              <a href="{% url 'editor:edit_question' question.id %}">[edit]</a>
+              <a href="{% url 'editor:delete_question' question.id %}">[X]</a>
         {% endfor %}
     </ul>
 {% endblock %}
