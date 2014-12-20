@@ -1,11 +1,11 @@
 from django.shortcuts import render, render_to_response
-from django.views.generic import View, FormView, ListView
+from django.views.generic import View, FormView, ListView, CreateView
 
 from core.models import Question
 
 from .forms import AddQuestionForm
 
-class AddQuestionView(FormView):
+class AddQuestionView(CreateView):
 
     form_class = AddQuestionForm
     success_url = '/editor/preview/'
