@@ -1,5 +1,5 @@
 from django.shortcuts import render, render_to_response
-from django.views.generic import View, FormView, ListView, CreateView
+from django.views.generic import View, FormView, ListView, CreateView, DeleteView, DetailView
 
 from core.models import Question
 
@@ -11,22 +11,21 @@ class AddQuestionView(CreateView):
     success_url = '/editor/preview/'
     template_name = 'editor/new.html'
 
-#    def get(self, request):
-#        return render(request, 'editor/new.html')
+class DeleteQuestionView(DeleteView):
+
+    model  = Question
+    success_url = '/editor/'
+    template_name = 'editor/delete.html'
+
+class QuestionView(DetailView):
+
+    model  = Question
+    success_url = '/editor/'
+    #template_name = 'editor/delete.html'
+
 
 
 class QuestionListView(ListView):
     model = Question
     queryset = Question.objects.order_by('-created')
     template_name = 'editor/index.html'
-"""
-    def get_queryset(self):
-        queryset = super(QuestionListView, self).get_queryset()
-        if 'tag' in self.kwargs:
-            tag = self.kwargs['tag']
-            return queryset.filter(tags__name__in=[tag,])
-        q = self.request.GET.get("q")
-        if q:
-            return queryset.filter(question__icontains=q)
-        return queryset
-"""

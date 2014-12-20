@@ -8,6 +8,9 @@
             <li>
              {{ question.question }}  &#8593;
              {{ question.question }} - <a href="/question/{{ question.id }}/{{ question.slug }}">more...</a>
+              <a href="{% url 'view_question' question.id %}">[...]</a>
+              <a href="{% url 'edit_question' question.id %}">[edit]</a>
+              <a href="{% url 'delete_question' question.id %}">[X]</a>
         {% endfor %}
     </ul>
 {% endblock %}
