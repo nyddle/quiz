@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ada04f5c-ec33-4510-980f-4e6feb2e47e2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/templates/editor/question_confirm_delete.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/views.py" afterPath="$PROJECT_DIR$/editor/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/templates/editor/index.html" afterPath="$PROJECT_DIR$/editor/templates/editor/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/models.py" afterPath="$PROJECT_DIR$/core/models.py" />
     </list>
     <ignored path="quiz.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -13,11 +13,11 @@
     <file path="/views.py" changelist="ada04f5c-ec33-4510-980f-4e6feb2e47e2" time="1419122708186" ignored="false" />
     <file path="/settings.py" changelist="ada04f5c-ec33-4510-980f-4e6feb2e47e2" time="1418778400280" ignored="false" />
     <file path="/forms.py" changelist="ada04f5c-ec33-4510-980f-4e6feb2e47e2" time="1418865257916" ignored="false" />
-    <file path="/models.py" changelist="ada04f5c-ec33-4510-980f-4e6feb2e47e2" time="1418946276109" ignored="false" />
+    <file path="/models.py" changelist="ada04f5c-ec33-4510-980f-4e6feb2e47e2" time="1419201621141" ignored="false" />
     <file path="/new.html" changelist="ada04f5c-ec33-4510-980f-4e6feb2e47e2" time="1418864589769" ignored="false" />
     <file path="$USER_HOME$/quiz/quiz/settings.py" changelist="ada04f5c-ec33-4510-980f-4e6feb2e47e2" time="1418777397718" ignored="false" />
     <file path="/base.html" changelist="ada04f5c-ec33-4510-980f-4e6feb2e47e2" time="1418865152760" ignored="false" />
-    <file path="/index.html" changelist="ada04f5c-ec33-4510-980f-4e6feb2e47e2" time="1419119580328" ignored="false" />
+    <file path="/index.html" changelist="ada04f5c-ec33-4510-980f-4e6feb2e47e2" time="1419205956989" ignored="false" />
     <file path="/question_detail.html" changelist="ada04f5c-ec33-4510-980f-4e6feb2e47e2" time="1419120280150" ignored="false" />
     <file path="/question_confirm_delete.html" changelist="ada04f5c-ec33-4510-980f-4e6feb2e47e2" time="1419123193390" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -50,19 +50,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="question_confirm_delete.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="question_confirm_delete.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/editor/templates/editor/question_confirm_delete.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="16" selection-start="50" selection-end="50" vertical-scroll-proportion="0.048780486">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="delete.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/editor/templates/editor/delete.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="7" selection-start="190" selection-end="190" vertical-scroll-proportion="-2.5">
+            <state line="2" column="16" selection-start="50" selection-end="50" vertical-scroll-proportion="-1.25">
               <folding />
             </state>
           </provider>
@@ -77,10 +68,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/editor/templates/editor/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="268" selection-end="268" vertical-scroll-proportion="-5.625">
+            <state line="17" column="0" selection-start="630" selection-end="630" vertical-scroll-proportion="0.41463414">
               <folding />
             </state>
           </provider>
@@ -104,6 +95,26 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="78" selection-start="504" selection-end="504" vertical-scroll-proportion="-6.6">
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/editor/templates/editor/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="0" selection-start="988" selection-end="988" vertical-scroll-proportion="-12.25">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/editor/urls.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -111,15 +122,6 @@
               <folding>
                 <element signature="e#0#51#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="forms.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/editor/forms.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="8" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -155,18 +157,18 @@
         <option value="$PROJECT_DIR$/game/urls.py" />
         <option value="$PROJECT_DIR$/game/views.py" />
         <option value="$PROJECT_DIR$/quiz/settings.py" />
-        <option value="$PROJECT_DIR$/core/models.py" />
         <option value="$PROJECT_DIR$/editor/templates/editor/new.html" />
         <option value="$PROJECT_DIR$/editor/templates/editor/base.html" />
         <option value="$PROJECT_DIR$/editor/forms.py" />
         <option value="$PROJECT_DIR$/editor/templates/editor/delete.html" />
         <option value="$PROJECT_DIR$/quiz/urls.py" />
-        <option value="$PROJECT_DIR$/editor/templates/editor/index.html" />
         <option value="$PROJECT_DIR$/editor/templates/editor/question_detail.html" />
         <option value="$PROJECT_DIR$/editor/urls.py" />
         <option value="$PROJECT_DIR$/editor/templates/question_confirm_delete.html" />
         <option value="$PROJECT_DIR$/editor/views.py" />
         <option value="$PROJECT_DIR$/editor/templates/editor/question_confirm_delete.html" />
+        <option value="$PROJECT_DIR$/core/models.py" />
+        <option value="$PROJECT_DIR$/editor/templates/editor/index.html" />
       </list>
     </option>
   </component>
@@ -519,20 +521,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/editor/templates/editor/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="988" selection-end="988" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="23" selection-start="53" selection-end="53" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/editor/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="8" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0">
@@ -593,16 +581,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/editor/templates/editor/index.html">
+    <entry file="file://$PROJECT_DIR$/editor/templates/editor/question_confirm_delete.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="268" selection-end="268" vertical-scroll-proportion="-5.625">
+        <state line="2" column="16" selection-start="50" selection-end="50" vertical-scroll-proportion="-1.25">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/editor/templates/editor/question_confirm_delete.html">
+    <entry file="file://$PROJECT_DIR$/core/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="16" selection-start="50" selection-end="50" vertical-scroll-proportion="0.048780486">
+        <state line="11" column="78" selection-start="504" selection-end="504" vertical-scroll-proportion="-6.6">
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/editor/templates/editor/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="988" selection-end="988" vertical-scroll-proportion="-12.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/editor/templates/editor/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="630" selection-end="630" vertical-scroll-proportion="0.41463414">
           <folding />
         </state>
       </provider>
