@@ -24,7 +24,7 @@ class DeleteQuestionView(DeleteView):
 
     model  = Question
     success_url = '/editor/'
-    template_name = 'editor/delete.html'
+    template_name = 'editor/question_confirm_delete.html'
 
 class QuestionView(DetailView):
 
