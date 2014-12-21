@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ada04f5c-ec33-4510-980f-4e6feb2e47e2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/templates/editor/question_detail.html" afterPath="$PROJECT_DIR$/editor/templates/editor/question_detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/urls.py" afterPath="$PROJECT_DIR$/editor/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/views.py" afterPath="$PROJECT_DIR$/editor/views.py" />
-    </list>
+    <list default="true" id="ada04f5c-ec33-4510-980f-4e6feb2e47e2" name="Default" comment="" />
     <ignored path="quiz.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="ada04f5c-ec33-4510-980f-4e6feb2e47e2" time="1419031818222" ignored="false" />
@@ -42,7 +37,7 @@
       <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/editor/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="33" selection-start="602" selection-end="602" vertical-scroll-proportion="0.53745925">
+            <state line="28" column="31" selection-start="732" selection-end="732" vertical-scroll-proportion="0.6840391">
               <folding>
                 <element signature="e#0#55#0" expanded="true" />
               </folding>
@@ -599,7 +594,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/editor/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="33" selection-start="602" selection-end="602" vertical-scroll-proportion="0.53745925">
+        <state line="28" column="31" selection-start="732" selection-end="732" vertical-scroll-proportion="0.6840391">
           <folding>
             <element signature="e#0#55#0" expanded="true" />
           </folding>
