@@ -7,7 +7,7 @@
         {% for question in object_list %}
             <li>
              {{ question.question }}  &#8593;
-             {{ question.question }} - <a href="/question/{{ question.id }}/{{ question.slug }}">more...</a>
+
               <a href="{% url 'editor:view_question' question.id %}">[...]</a>
               <a href="{% url 'editor:edit_question' question.id %}">[edit]</a>
               <a href="{% url 'editor:delete_question' question.id %}">[X]</a>

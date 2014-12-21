@@ -21,7 +21,7 @@ class QuestionView(DetailView):
 
     model  = Question
     success_url = '/editor/'
-    #template_name = 'editor/delete.html'
+    template_name = 'editor/question_detail.html'
 
 
 
