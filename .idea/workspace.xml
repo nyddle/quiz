@@ -2,15 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ada04f5c-ec33-4510-980f-4e6feb2e47e2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/editor/templates/editor/question_detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/templates/editor/index.html" afterPath="$PROJECT_DIR$/editor/templates/editor/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/templates/editor/question_detail.html" afterPath="$PROJECT_DIR$/editor/templates/editor/question_detail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/urls.py" afterPath="$PROJECT_DIR$/editor/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/editor/views.py" afterPath="$PROJECT_DIR$/editor/views.py" />
     </list>
     <ignored path="quiz.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="ada04f5c-ec33-4510-980f-4e6feb2e47e2" time="1419031818222" ignored="false" />
-    <file path="/urls.py" changelist="ada04f5c-ec33-4510-980f-4e6feb2e47e2" time="1419119551415" ignored="false" />
-    <file path="/views.py" changelist="ada04f5c-ec33-4510-980f-4e6feb2e47e2" time="1419120267834" ignored="false" />
+    <file path="/urls.py" changelist="ada04f5c-ec33-4510-980f-4e6feb2e47e2" time="1419121694653" ignored="false" />
+    <file path="/views.py" changelist="ada04f5c-ec33-4510-980f-4e6feb2e47e2" time="1419122284613" ignored="false" />
     <file path="/settings.py" changelist="ada04f5c-ec33-4510-980f-4e6feb2e47e2" time="1418778400280" ignored="false" />
     <file path="/forms.py" changelist="ada04f5c-ec33-4510-980f-4e6feb2e47e2" time="1418865257916" ignored="false" />
     <file path="/models.py" changelist="ada04f5c-ec33-4510-980f-4e6feb2e47e2" time="1418946276109" ignored="false" />
@@ -38,10 +39,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/editor/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="634" selection-end="634" vertical-scroll-proportion="-15.6">
+            <state line="22" column="33" selection-start="602" selection-end="602" vertical-scroll-proportion="0.53745925">
               <folding>
                 <element signature="e#0#55#0" expanded="true" />
               </folding>
@@ -76,10 +77,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="question_detail.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="question_detail.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/editor/templates/editor/question_detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="19" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0">
+            <state line="4" column="14" selection-start="105" selection-end="105" vertical-scroll-proportion="-2.5">
               <folding />
             </state>
           </provider>
@@ -97,7 +98,7 @@
       <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/editor/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="715" selection-end="715" vertical-scroll-proportion="-9.0">
+            <state line="15" column="0" selection-start="731" selection-end="731" vertical-scroll-proportion="-9.0">
               <folding>
                 <element signature="e#0#51#0" expanded="true" />
               </folding>
@@ -160,11 +161,11 @@
         <option value="$PROJECT_DIR$/editor/templates/editor/base.html" />
         <option value="$PROJECT_DIR$/editor/forms.py" />
         <option value="$PROJECT_DIR$/editor/templates/editor/delete.html" />
-        <option value="$PROJECT_DIR$/editor/urls.py" />
         <option value="$PROJECT_DIR$/quiz/urls.py" />
         <option value="$PROJECT_DIR$/editor/templates/editor/index.html" />
-        <option value="$PROJECT_DIR$/editor/views.py" />
         <option value="$PROJECT_DIR$/editor/templates/editor/question_detail.html" />
+        <option value="$PROJECT_DIR$/editor/urls.py" />
+        <option value="$PROJECT_DIR$/editor/views.py" />
       </list>
     </option>
   </component>
@@ -559,15 +560,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/editor/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="715" selection-end="715" vertical-scroll-proportion="-9.0">
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/quiz/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="32" selection-start="388" selection-end="388" vertical-scroll-proportion="-5.4">
@@ -589,19 +581,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/editor/views.py">
+    <entry file="file://$PROJECT_DIR$/editor/templates/editor/question_detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="634" selection-end="634" vertical-scroll-proportion="-15.6">
+        <state line="4" column="14" selection-start="105" selection-end="105" vertical-scroll-proportion="-2.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/editor/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="731" selection-end="731" vertical-scroll-proportion="-9.0">
           <folding>
-            <element signature="e#0#55#0" expanded="true" />
+            <element signature="e#0#51#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/editor/templates/editor/question_detail.html">
+    <entry file="file://$PROJECT_DIR$/editor/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="19" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="22" column="33" selection-start="602" selection-end="602" vertical-scroll-proportion="0.53745925">
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

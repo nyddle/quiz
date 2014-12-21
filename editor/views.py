@@ -1,5 +1,5 @@
 from django.shortcuts import render, render_to_response
-from django.views.generic import View, FormView, ListView, CreateView, DeleteView, DetailView
+from django.views.generic import View, FormView, ListView, CreateView, DeleteView, DetailView, UpdateView
 
 from core.models import Question
 
@@ -7,9 +7,18 @@ from .forms import AddQuestionForm
 
 class AddQuestionView(CreateView):
 
+    model  = Question
     form_class = AddQuestionForm
     success_url = '/editor/preview/'
     template_name = 'editor/new.html'
+
+class EditQuestionView(UpdateView):
+
+    model  = Question
+    form_class = AddQuestionForm
+    success_url = '/editor/preview/'
+    template_name = 'editor/new.html'
+
 
 class DeleteQuestionView(DeleteView):
 
@@ -21,7 +30,7 @@ class QuestionView(DetailView):
 
     model  = Question
     success_url = '/editor/'
-    template_name = 'editor/question_detail.html'
+    template_name = 'editor/new.html'
 
 
 
