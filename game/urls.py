@@ -1,8 +1,9 @@
 from django.conf.urls import patterns, include, url
 
-from .views import HomeView
+from .views import GameView
 
 
 urlpatterns = patterns('',
-    url(r'^$', HomeView.as_view()),
+    url(r'^$', GameView.as_view()),
+    #url(r'^$', HomeView.as_view()),
 )

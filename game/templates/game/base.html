@@ -17,7 +17,23 @@
     <![endif]-->
   </head>
   <body>
-    <h1>Hello, world!</h1>
+        {% if user.is_authenticated %}
+        <div class="user-details">
+          You are logged in as <code>{{ user.username }}</code>!
+          <a class="btn btn-primary" href="{% url 'social:disconnect' "vk-oauth2" %}">Logout</a>
+        </div>
+      {% else %}
+
+
+        <a href="{% url 'social:begin' "vk-oauth2" %}" class="vk sn-logo">Vkontakte</a>
+        <a href="{% url 'social:begin' "facebook" %}" class="fb sn-logo">Facebook</a>
+        <a href="{% url 'social:begin' "google-oauth2" %}" class="google sn-logo">Google+</a>
+
+      {% endif %}
+
+
+  {% block content %}
+  {% endblock %}
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
