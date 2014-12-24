@@ -1,4 +1,4 @@
-from django.shortcuts import render, render_to_response
+from django.shortcuts import render, render_to_response, redirect
 from django.views.generic import View, FormView, ListView, CreateView, DeleteView, DetailView, UpdateView
 
 from core.models import Question
@@ -11,6 +11,7 @@ class AddQuestionView(CreateView):
     form_class = AddQuestionForm
     success_url = '/editor/preview/'
     template_name = 'editor/new.html'
+
 
 class EditQuestionView(UpdateView):
 
