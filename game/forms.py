@@ -2,8 +2,8 @@ from django import forms
 
 class QuestionForm(forms.Form):
 
-    CHOICES=[('A','select 1'),
-         ('B','select 2')]
+    CHOICES=[('A','Answer 1'),
+         ('B','Answer 2')]
     answer = forms.ChoiceField(choices=CHOICES, widget=forms.RadioSelect())
 
     def __init__(self, *args, **kwargs):
