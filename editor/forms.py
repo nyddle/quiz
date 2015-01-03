@@ -7,5 +7,5 @@ from core.models import Question
 class AddQuestionForm(ModelForm):
     class Meta:
         model = Question
-        fields = [ 'question', 'pic', 'answer', 'a', 'b', 'c' ]
+        fields = [ 'question', 'pic', 'answer', 'a', 'b', 'c', 'notes', 'published' ]
 

@@ -18,4 +18,5 @@ class Question(models.Model):
     c = models.CharField(max_length=200)
     created = models.DateTimeField('creation date', auto_now_add=True)
     author = models.ForeignKey(settings.AUTH_USER_MODEL, null=True, blank=True)
-
+    published = models.BooleanField(blank=True)
+    notes = models.CharField(max_length=4000)

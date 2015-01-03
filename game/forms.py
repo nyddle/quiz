@@ -1,9 +1,10 @@
 from django import forms
 
 class QuestionForm(forms.Form):
-    name = forms.CharField()
-    url = forms.URLField()
-    comment = forms.CharField(widget=forms.Textarea)
+
+    CHOICES=[('A','select 1'),
+         ('B','select 2')]
+    answer = forms.ChoiceField(choices=CHOICES, widget=forms.RadioSelect())
 
     def __init__(self, *args, **kwargs):
         self._question = kwargs.pop('question')
