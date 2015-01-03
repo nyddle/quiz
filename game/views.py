@@ -18,6 +18,11 @@ class GameView(View):
 
     def post(self, request):
 
+        question_id = request.POST.get('question_id')
+        answer = request.POST.get('answer')
+
+        cquestion = Question.objects.get(id=question_id)
+
         question = Question.objects.all().order_by('?')[0]
         form = QuestionForm(question=question)
 
