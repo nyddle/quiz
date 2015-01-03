@@ -12,10 +12,4 @@ class QuestionForm(forms.Form):
          ('B','Answer 2')]
         self.fields['answer'] = forms.ChoiceField(choices=CHOICES, widget=forms.RadioSelect())
 
-"""
-CHOICES=[('select1','select 1'),
-         ('select2','select 2')]
-
-like = forms.ChoiceField(choices=CHOICES, widget=forms.RadioSelect())
-"""
 
